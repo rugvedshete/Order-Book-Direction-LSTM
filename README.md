@@ -37,13 +37,3 @@ LSTM(64, return_sequences=True)
 Dropout(0.2)
 LSTM(32)
 Dense(1, activation="sigmoid")
-
-git clone https://github.com/<your-username>/Order-Book-Direction-LSTM-ICICIBANK.git
-cd Order-Book-Direction-LSTM-ICICIBANK
-pip install -r requirements.txt   # or install manually: yfinance, pandas, numpy, scikit-learn, tensorflow, matplotlib
-jupyter notebook
-
-
-You can also add your accuracy plot as `images/accuracy.png` and reference it in the README.
-
----
